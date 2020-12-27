@@ -38,7 +38,7 @@ namespace Bme121
 			if (row.Length == 0 || int.Parse( row ) < 4 || int.Parse( row ) > 26)
             {
 				row = "6"; 
-			}
+		}
             intRow = Convert.ToInt32(row);
 
         
